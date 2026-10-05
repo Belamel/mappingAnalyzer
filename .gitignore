@@ -1,0 +1,11 @@
+.idea/
+__pycache__/
+*.pyc
+
+memeTypeDefLangages/output-csv.ttl
+testScenarios/output-json.ttl
+
+defTypememeLangage/output-csv.ttl
+defTypememeLangage/output-json.ttl
+
+testScenarios/output-csv.ttl

@@ -1,0 +1,124 @@
+@prefix ns0: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix schema: <http://schema.org/> .
+
+<http://mapping.example.com/map_agency_000>
+        ns0:logicalSource <http://mapping.example.com/source_003> ;
+        a rr:TriplesMap ;
+        rdfs:label "agency" ;
+        rr:subjectMap <http://mapping.example.com/s_003> ;
+        rr:predicateObjectMap <http://mapping.example.com/pom_028>, <http://mapping.example.com/pom_029>, <http://mapping.example.com/pom_030>, <http://mapping.example.com/pom_031>, <http://mapping.example.com/pom_032>, <http://mapping.example.com/pom_033>, <http://mapping.example.com/pom_034> .
+
+<http://mapping.example.com/source_003>
+        a ns0:LogicalSource ;
+        ns0:source "/data/AGENCY.csv" ;
+        ns0:referenceFormulation <http://semweb.mmlab.be/ns/ql#CSV> .
+
+<http://mapping.example.com/s_003>
+        a rr:SubjectMap ;
+        rr:template "http://transport.linkeddata.es/madrid/agency/{agency_id}" .
+
+<http://mapping.example.com/pom_028>
+        a rr:PredicateObjectMap ;
+        rr:predicateMap <http://mapping.example.com/pm_028> ;
+        rr:objectMap <http://mapping.example.com/om_029> .
+
+<http://mapping.example.com/pm_028>
+        a rr:PredicateMap ;
+        rr:constant rdf:type .
+
+<http://mapping.example.com/om_029>
+        a rr:ObjectMap ;
+        rr:constant "http://vocab.gtfs.org/terms#Agency" ;
+        rr:termType rr:IRI .
+
+<http://mapping.example.com/pom_029>
+        a rr:PredicateObjectMap ;
+        rr:predicateMap <http://mapping.example.com/pm_029> ;
+        rr:objectMap <http://mapping.example.com/om_030> .
+
+<http://mapping.example.com/pm_029>
+        a rr:PredicateMap ;
+        rr:constant foaf:page .
+
+<http://mapping.example.com/om_030>
+        a rr:ObjectMap ;
+        ns0:reference "agency_url" ;
+        rr:termType rr:IRI .
+
+<http://mapping.example.com/pom_030>
+        a rr:PredicateObjectMap ;
+        rr:predicateMap <http://mapping.example.com/pm_030> ;
+        rr:objectMap <http://mapping.example.com/om_031> .
+
+<http://mapping.example.com/pm_030>
+        a rr:PredicateMap ;
+        rr:constant foaf:name .
+
+<http://mapping.example.com/om_031>
+        a rr:ObjectMap ;
+        ns0:reference "agency_name" ;
+        rr:termType rr:Literal .
+
+<http://mapping.example.com/pom_031>
+        a rr:PredicateObjectMap ;
+        rr:predicateMap <http://mapping.example.com/pm_031> ;
+        rr:objectMap <http://mapping.example.com/om_032> .
+
+<http://mapping.example.com/pm_031>
+        a rr:PredicateMap ;
+        rr:constant <http://vocab.gtfs.org/terms#timeZone> .
+
+<http://mapping.example.com/om_032>
+        a rr:ObjectMap ;
+        ns0:reference "agency_timezone" ;
+        rr:termType rr:Literal .
+
+<http://mapping.example.com/pom_032>
+        a rr:PredicateObjectMap ;
+        rr:predicateMap <http://mapping.example.com/pm_032> ;
+        rr:objectMap <http://mapping.example.com/om_033> .
+
+<http://mapping.example.com/pm_032>
+        a rr:PredicateMap ;
+        rr:constant dc:language .
+
+<http://mapping.example.com/om_033>
+        a rr:ObjectMap ;
+        ns0:reference "agency_lang" ;
+        rr:termType rr:Literal .
+
+<http://mapping.example.com/pom_033>
+        a rr:PredicateObjectMap ;
+        rr:predicateMap <http://mapping.example.com/pm_033> ;
+        rr:objectMap <http://mapping.example.com/om_034> .
+
+<http://mapping.example.com/pm_033>
+        a rr:PredicateMap ;
+        rr:constant foaf:phone .
+
+<http://mapping.example.com/om_034>
+        a rr:ObjectMap ;
+        ns0:reference "agency_phone" ;
+        rr:termType rr:Literal .
+
+<http://mapping.example.com/pom_034>
+        a rr:PredicateObjectMap ;
+        rr:predicateMap <http://mapping.example.com/pm_034> ;
+        rr:objectMap <http://mapping.example.com/om_035> .
+
+<http://mapping.example.com/pm_034>
+        a rr:PredicateMap ;
+        rr:constant <http://vocab.gtfs.org/terms#fareUrl> .
+
+<http://mapping.example.com/om_035>
+        a rr:ObjectMap ;
+        ns0:reference "agency_fare_url" ;
+        rr:termType rr:IRI .

@@ -1,0 +1,74 @@
+<http://dbpedia.org/resource/Leonardo_DiCaprio> <http://example.com/name> "Leonardo DiCaprio" .
+<http://example.com/3> <http://schema.org/actor> <http://dbpedia.org/resource/Joseph_Gordon-Levitt> .
+<http://example.com/3> <http://schema.org/musicBy> <http://dbpedia.org/resource/Hans_Zimmer> .
+<http://example.com/3> <http://example.com/year> <http://dbpedia.org/resource/2010> .
+<http://example.com/3> <http://schema.org/actor> <http://dbpedia.org/resource/Ellen_Page> .
+<http://example.com/3> <http://schema.org/director> <http://dbpedia.org/resource/Christopher_Nolan> .
+<http://example.com/3> <http://schema.org/actor> <http://dbpedia.org/resource/Leonardo_DiCaprio> .
+<http://example.com/3> <http://example.com/screenwritter> <http://dbpedia.org/resource/Christopher_Nolan> .
+<http://example.com/3> <http://schema.org/actor> <http://dbpedia.org/resource/Tom_Hardy> .
+<http://example.com/3> <http://schema.org/countryOfOrigin> <http://dbpedia.org/resource/USA> .
+<http://example.com/3> <http://schema.org/name> "Inception" .
+<http://dbpedia.org/resource/Christian_Bale> <http://example.com/name> "Christian Bale" .
+<http://dbpedia.org/resource/Ellen_Page> <http://example.com/name> "Ellen Page" .
+<http://dbpedia.org/resource/Mackenzie_Foy> <http://example.com/appear_on> <http://example.com/2> .
+<http://dbpedia.org/resource/Mackenzie_Foy> <http://example.com/name> "Mackenzie Foy" .
+<http://example.com/2> <http://schema.org/actor> <http://dbpedia.org/resource/Matthew_McConaughey> .
+<http://example.com/2> <http://schema.org/musicBy> <http://dbpedia.org/resource/Hans_Zimmer> .
+<http://example.com/2> <http://schema.org/director> <http://dbpedia.org/resource/Christopher_Nolan> .
+<http://example.com/2> <http://schema.org/actor> <http://dbpedia.org/resource/Ellen_Burstyn> .
+<http://example.com/2> <http://example.com/screenwritter> <http://dbpedia.org/resource/Christopher_Nolan> .
+<http://example.com/2> <http://schema.org/actor> <http://dbpedia.org/resource/Timothée_Chalamet> .
+<http://example.com/2> <http://schema.org/actor> <http://dbpedia.org/resource/Mackenzie_Foy> .
+<http://example.com/2> <http://example.com/cinematographer> <http://dbpedia.org/resource/Hoyte_van_Hoytema> .
+<http://example.com/2> <http://example.com/screenwritter> <http://dbpedia.org/resource/Jonathan_Nolan> .
+<http://example.com/2> <http://schema.org/countryOfOrigin> <http://dbpedia.org/resource/USA> .
+<http://example.com/2> <http://schema.org/name> "Interstellar" .
+<http://example.com/2> <http://example.com/year> <http://dbpedia.org/resource/2014> .
+<http://example.com/2> <http://schema.org/actor> <http://dbpedia.org/resource/John_Lithgow> .
+<http://dbpedia.org/resource/Matthew_McConaughey> <http://example.com/appear_on> <http://example.com/2> .
+<http://dbpedia.org/resource/Matthew_McConaughey> <http://example.com/name> "Matthew McConaughey" .
+<http://dbpedia.org/resource/John_Lithgow> <http://example.com/appear_on> <http://example.com/2> .
+<http://dbpedia.org/resource/John_Lithgow> <http://example.com/name> "John Lithgow" .
+<http://example.com/1> <http://schema.org/actor> <http://dbpedia.org/resource/Aneurin_Barnard> .
+<http://example.com/1> <http://schema.org/name> "Dunkirk" .
+<http://example.com/1> <http://schema.org/countryOfOrigin> <http://dbpedia.org/resource/USA> .
+<http://example.com/1> <http://schema.org/actor> <http://dbpedia.org/resource/Fionn_Whitehead> .
+<http://example.com/1> <http://schema.org/actor> <http://dbpedia.org/resource/James_Bloor> .
+<http://example.com/1> <http://example.com/year> <http://dbpedia.org/resource/2017> .
+<http://example.com/1> <http://schema.org/musicBy> <http://dbpedia.org/resource/Hans_Zimmer> .
+<http://example.com/1> <http://example.com/cinematographer> <http://dbpedia.org/resource/Hoyte_van_Hoytema> .
+<http://example.com/1> <http://example.com/screenwritter> <http://dbpedia.org/resource/Christopher_Nolan> .
+<http://example.com/1> <http://schema.org/actor> <http://dbpedia.org/resource/Lee_Armstrong> .
+<http://example.com/1> <http://schema.org/director> <http://dbpedia.org/resource/Christopher_Nolan> .
+<http://example.com/1> <http://schema.org/actor> <http://dbpedia.org/resource/Damien_Bonnard> .
+<http://dbpedia.org/resource/Ellen_Burstyn> <http://example.com/appear_on> <http://example.com/2> .
+<http://dbpedia.org/resource/Ellen_Burstyn> <http://example.com/name> "Ellen Burstyn" .
+<http://dbpedia.org/resource/Aneurin_Barnard> <http://example.com/appear_on> <http://example.com/1> .
+<http://dbpedia.org/resource/Aneurin_Barnard> <http://example.com/name> "Aneurin Barnard" .
+<http://dbpedia.org/resource/Fionn_Whitehead> <http://example.com/appear_on> <http://example.com/1> .
+<http://dbpedia.org/resource/Fionn_Whitehead> <http://example.com/name> "Fionn Whitehead" .
+<http://dbpedia.org/resource/James_Bloor> <http://example.com/appear_on> <http://example.com/1> .
+<http://dbpedia.org/resource/James_Bloor> <http://example.com/name> "James Bloor" .
+<http://dbpedia.org/resource/Damien_Bonnard> <http://example.com/appear_on> <http://example.com/1> .
+<http://dbpedia.org/resource/Damien_Bonnard> <http://example.com/name> "Damien Bonnard" .
+<http://dbpedia.org/resource/Hugh_Jackman> <http://example.com/name> "Hugh Jackman" .
+<http://dbpedia.org/resource/Lee_Armstrong> <http://example.com/appear_on> <http://example.com/1> .
+<http://dbpedia.org/resource/Lee_Armstrong> <http://example.com/name> "Lee Armstrong" .
+<http://dbpedia.org/resource/Piper_Perabo> <http://example.com/name> "Piper Perabo" .
+<http://dbpedia.org/resource/Joseph_Gordon-Levitt> <http://example.com/name> "Joseph Gordon-Levitt" .
+<http://dbpedia.org/resource/Tom_Hardy> <http://example.com/name> "Tom Hardy" .
+<http://dbpedia.org/resource/Timothée_Chalamet> <http://example.com/appear_on> <http://example.com/2> .
+<http://dbpedia.org/resource/Timothée_Chalamet> <http://example.com/name> "Timothée Chalamet" .
+<http://example.com/4> <http://schema.org/actor> <http://dbpedia.org/resource/Christian_Bale> .
+<http://example.com/4> <http://schema.org/actor> <http://dbpedia.org/resource/Piper_Perabo> .
+<http://example.com/4> <http://schema.org/actor> <http://dbpedia.org/resource/Hugh_Jackman> .
+<http://example.com/4> <http://schema.org/name> "The Prestige" .
+<http://example.com/4> <http://example.com/screenwritter> <http://dbpedia.org/resource/Jonathan_Nolan> .
+<http://example.com/4> <http://example.com/screenwritter> <http://dbpedia.org/resource/Christopher_Nolan> .
+<http://example.com/4> <http://example.com/year> <http://dbpedia.org/resource/2006> .
+<http://example.com/4> <http://schema.org/countryOfOrigin> <http://dbpedia.org/resource/USA> .
+<http://example.com/4> <http://schema.org/director> <http://dbpedia.org/resource/Christopher_Nolan> .
+<http://example.com/4> <http://schema.org/musicBy> <http://dbpedia.org/resource/David_Julyan> .
+<http://example.com/4> <http://schema.org/actor> <http://dbpedia.org/resource/Michael_Caine> .
+<http://dbpedia.org/resource/Michael_Caine> <http://example.com/name> "Michael Caine" .
